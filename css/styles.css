@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #434455;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span {
+    color: #2e2f42;
+}
+
+.nav-item,
+.address-item {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.address-item {
+    color: #434455;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.service {
+    background-color: #2e2f42;
+}
+
+.service-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.service-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    color: #ffffff;
+}
+
+.service-button:hover,
+.service-button:focus {
+    background-color: #404bbf;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.feature-title,
+.team-title,
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.feature-desc,
+.team-desc,
+.portfolio-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .logo-span {
+    color: #f4f4fd;
+}
+
+.footer-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
