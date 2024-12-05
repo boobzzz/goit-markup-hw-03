@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
+}
+
+h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -13,10 +22,39 @@ a {
 }
 
 button {
+    border: none;
     cursor: pointer;
 }
 
+.container {
+    width: 1158px;
+}
+
+.header,
+.footer,
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    padding: 120px;
+}
+
+.header .container,
+.header nav,
+.header .address,
+.header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container {
+    padding: 24px 0;
+}
+
 .logo {
+    margin-right: 56px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -39,7 +77,12 @@ button {
     color: #2e2f42;
 }
 
+.nav-item {
+    margin-right: 32px;
+}
+
 .address-item {
+    margin-left: 32px;
     color: #434455;
 }
 
@@ -55,10 +98,20 @@ button {
 }
 
 .service {
+    height: 600px;
     background-color: #2e2f42;
 }
 
+.service .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
 .service-title {
+    width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -67,11 +120,13 @@ button {
 }
 
 .service-button {
+    padding: 16px 32px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
     background-color: #4d5ae5;
     color: #ffffff;
 }
@@ -89,6 +144,22 @@ button {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+}
+
+.features-list,
+.team-list,
+.portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .feature-title,
@@ -110,6 +181,10 @@ button {
     color: #434455;
 }
 
+.feature-desc {
+    margin-top: 16px;
+}
+
 .team {
     background-color: #f4f4fd;
 }
@@ -118,7 +193,21 @@ button {
     background-color: #ffffff;
 }
 
+.portfolio-list {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.portfolio-text {
+    align-items: flex-start;
+    padding: 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .footer {
+    padding: 120px;
     background-color: #2e2f42;
 }
 
@@ -127,6 +216,8 @@ button {
 }
 
 .footer-desc {
+    margin-top: 16px;
+    width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
