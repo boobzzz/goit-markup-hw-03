@@ -47,6 +47,7 @@ button {
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
@@ -75,10 +76,6 @@ button {
     gap: 40px;
 }
 
-.menu-link {
-    padding: 24px 0;
-}
-
 .menu-link,
 .address-link {
     font-size: 16px;
@@ -88,8 +85,10 @@ button {
     color: #2e2f42;
 }
 
-.menu-link {
-    margin-right: 32px;
+.menu-link,
+.address-link {
+    display: block;
+    padding: 24px 0;
 }
 
 .address-link {
